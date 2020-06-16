@@ -1,0 +1,21 @@
+.mobileBtns li {
+  margin-left: 10px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #2d2d2d;
+}
+
+.mobileBtns li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+
+.mobileBtns li a:hover {
+  color: #2FDF84;
+}
+
+.mobileBtns .icon {
+  display: flex;
+}

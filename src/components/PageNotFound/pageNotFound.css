@@ -1,0 +1,31 @@
+.pageNotFound {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+
+  background-color: #141414;
+  background-image: url("../../assets/images/background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.pageNotFound h2 {
+  text-align: center;
+  font-size: 16px;
+  color: #212121!important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .button {
+    max-width: 200px;
+  }
+}

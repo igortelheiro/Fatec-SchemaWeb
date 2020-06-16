@@ -1,0 +1,40 @@
+@import url(./HeaderBtns/desktopBtns.css);
+@import url(./HeaderBtns/mobileBtns.css);
+
+.header {
+  top: 0;
+  width: 100%;
+  height: 75px;
+  position: fixed;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #141414;
+  padding: 12px 30px;
+}
+
+.appLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 130px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.mobileBtns {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .desktopBtns { display: none; }
+  .mobileBtns { display: flex; }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 0 20px;
+  }
+}

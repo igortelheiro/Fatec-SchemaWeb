@@ -1,0 +1,99 @@
+main.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  justify-content: center;
+  position: static;
+}
+
+.welcome h1 {
+  font-size: 60px;
+  margin: 25px 0;
+}
+
+.welcome p {
+  line-height: 1.4rem;
+  font-size: 18px;
+  max-width: 380px;
+}
+
+.welcome div.btns {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+}
+
+.welcome a {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px;
+  width: 120px;
+  padding: 10px 8px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #2FDF84;
+}
+
+a.signupBtn {
+  color: #2FDF84;
+  background-color: #141414;
+}
+
+a.signinBtn {
+  color: black;
+  background-color: #2FDF84;
+}
+
+.welcome img {
+  right: -3%;
+  bottom: -8%;
+  position: absolute;
+  height: 600px;
+}
+
+@media only screen and (max-height: 740px) {
+  .welcome img {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main.welcome {
+    padding: 50px;
+  }
+
+  .welcome img {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  main.welcome {
+    padding: 40px;
+  }
+
+  .welcome div.interaction {
+    top: 15%;
+    position: absolute;
+  }
+
+  .welcome img {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .welcome img {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .welcome img {
+    height: 350px;
+  }
+}

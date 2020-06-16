@@ -1,0 +1,149 @@
+@import "./reset/reset";
+@import "./colors/colors";
+@import "./button/button";
+
+@import "./global/global";
+
+@import "./header/header";
+
+.home-container {
+    min-height: 100vh;
+    padding: 50px 20px;
+}
+
+.cardsGame-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+
+    @media screen and (max-width: 1270px) {
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+    }
+}
+
+.cardGame {
+    max-width: 550px;
+    padding: 50px 25px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #212121;
+
+    height: 650px;
+
+    @media screen and (max-width: 1270px) {
+        height: auto;
+    }
+}
+
+.cardGame h2 {
+    margin-bottom: 24px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.logo-card {
+    margin: 0;
+    text-align: center;
+}
+
+.logo-card img {
+    width: 250px;
+    margin-bottom: 32px;
+
+    @media screen and (max-width: 768px) {
+        width: 200px;
+    }
+}
+
+.logon-container {
+    min-height: 100vh;
+    height: 100%;
+    max-width: 100%;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.logon-container h1 {
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.logon-container form {
+    padding: 15px;
+    max-width: 400px;
+}
+
+.logon-container form button {
+    width: 100%;
+    background-color: $grey;
+}
+
+.logon-container form button:hover {
+    filter: brightness(150%);
+}
+
+.logon-container form img {
+    width: 200px;
+    height: auto;
+}
+
+.logon-container form a {
+    display: block;
+    color: $green;
+    border: 0;
+    text-decoration: none;
+    height: 25px;
+}
+
+.logon-container form a:hover {
+    filter: brightness(200%);
+}
+
+.logon-container form p a {
+    display: inline;
+}
+
+
+.input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 16px;
+
+    background-color: transparent;
+    border: 1px solid $grey;
+    border-radius: 5px;
+    padding-left: 10px;
+
+    outline: 0;
+
+    transition: border-color 0.3s ease-in-out;
+
+    color: #fff;
+    font-size: 16px;
+}
+
+.input::placeholder {
+    color: #fff;
+}
+
+.input:focus {
+    border-color: $green;
+}
+
+.input-select option {
+    color: #fff;
+    background-color: #212121;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+

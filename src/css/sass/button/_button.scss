@@ -1,0 +1,44 @@
+.button {
+    width: 100%;
+    border-radius: 10px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+    font-size: 16px;
+    outline: none;
+
+    background-color: #fff;
+    font-weight: bold;
+
+    @media screen and (min-width: 768px) {
+        width: 350px;        
+    }
+}
+
+.button:hover{
+    filter: brightness(80%);
+}
+
+.button:focus {
+    outline: 0;
+}
+
+.button.js {
+    background-color: $js;
+    color: #212121;
+
+}
+
+.button.c {
+    background-color: $c;
+    color: #fff;
+}
+
+.button.flowchart {
+    background-color: $flowchart;
+    color: #212121;
+}

@@ -1,0 +1,13 @@
+.swiper-container {
+  display: grid;
+  width: 900px;
+  margin-top: 80px; /* Centraliza verticalmente na tela */
+  padding: 0px 30px;
+  max-height: 450px;
+  align-content: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #2FDF84!important;
+}

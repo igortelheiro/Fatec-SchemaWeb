@@ -1,0 +1,44 @@
+.desktopBtns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desktopBtns ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li.username {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 17px;
+  font-weight: bold;
+}
+li.exp {
+  font-size: 14px;
+  font-weight: lighter;
+  align-self: flex-end;
+}
+
+.desktopBtns .divider {
+  align-self: center;
+  height: 20px;
+  padding: 1px;
+  background-color: #2d2d2d;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.699);
+}
+.avatar {
+  width: 48px;
+  margin-left: 14px;
+  border-radius: 100%;
+  border: 3px;
+  border-style: solid;
+  border-color: #2FDF84;
+  cursor: pointer;
+}
